@@ -1,0 +1,8 @@
+[
+  {"id":1,"lat":-3.4653,"lon":-62.2159,"area_ha":500,"date":"2024-06-10","country":"Brazil","notes":"Clearing for cattle"},
+  {"id":2,"lat":-1.9403,"lon":29.8739,"area_ha":120,"date":"2024-09-11","country":"DRC","notes":"Smallholder clearing"},
+  {"id":3,"lat":-7.2504,"lon":112.7688,"area_ha":2000,"date":"2024-07-22","country":"Indonesia","notes":"Industrial logging"},
+  {"id":4,"lat":-4.2105,"lon":39.2886,"area_ha":50,"date":"2024-08-03","country":"Kenya","notes":"Fire damage"},
+  {"id":5,"lat":5.6020,"lon":-0.1869,"area_ha":300,"date":"2024-05-15","country":"Ghana","notes":"Agriculture expansion"},
+  {"id":6,"lat":-2.5333,"lon":34.9167,"area_ha":800,"date":"2024-10-02","country":"Tanzania","notes":"Road clearing"}
+]

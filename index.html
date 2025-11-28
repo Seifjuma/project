@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Deforestation Tracker - Minimal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+oCscDaSMwY8L3B8m+W7jz94kJrQ1j9sBrJYp2h2M=" crossorigin=""/>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Deforestation Tracker</h1>
+      <div id="controls">
+        <label for="country">Country</label>
+        <select id="country"><option value="all">All</option></select>
+        <label for="start">From</label>
+        <input id="start" type="date">
+        <label for="end">To</label>
+        <input id="end" type="date">
+        <button id="apply">Apply</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="map"></div>
+      <aside id="sidebar">
+        <h2>Hotspots</h2>
+        <div id="summary"></div>
+        <ul id="list"></ul>
+      </aside>
+    </main>
+
+    <footer>
+      <small>Minimal tracker — sample data only. Open in browser or run a static server.</small>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j2k2qc2gq6qF6JtQmQo4d10K1uFQXkLkJ1fJgR0=" crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>
